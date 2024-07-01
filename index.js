@@ -3,6 +3,9 @@
       function main() {
             const canvas = document.querySelector('#c');
             const renderer = new THREE.WebGLRenderer({antialias: true, canvas});
+
+            const scene = new THREE.Scene();
+            
             const BoxHeight = 1;
             const BoxWidth = 1;
             const BoxDepth = 1;
