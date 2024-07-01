@@ -11,7 +11,6 @@
       	const camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
       	camera.position.z = 2;
 
-
             const scene = new THREE.Scene();
             
             const BoxHeight = 1;
@@ -22,7 +21,6 @@
             const material = new THREE.MeshBasicMaterial({color: 0x44aa88});
       
             const cube = new THREE.Mesh(geometry, material);
-      
             scene.add(cube);
       
             renderer.render(scene, camera);
